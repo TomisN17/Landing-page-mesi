@@ -1,0 +1,147 @@
+/* Importar una fuente moderna de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%; /* Asegúrate de que el html y body ocupen el 100% de la altura */
+  margin: 0; /* Elimina márgenes */
+  padding: 0; /* Elimina padding */
+  font-family: 'Poppins', sans-serif; /* Cambiar a una fuente moderna */
+  background-image: url('./desktop-wallpaper-empty-classroom-clipart-class-room.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* La imagen se queda fija mientras se desplaza el contenido */
+}
+
+/* Header */
+header {
+  background: #f7aefd;
+  color: rgb(0, 0, 0);
+  padding: 1em 0;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra para un efecto moderno */
+}
+
+Nav {
+  background: #b478b4;
+  padding: 1em;
+  text-align: center;
+}
+
+Nav a {
+  color: rgb(0, 0, 0);
+  margin: 0 1em;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease; /* Transición para color de enlace */
+}
+
+Nav a:hover {
+  color: #d0ffcc;
+}
+
+/* Sections */
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 2em 1em;
+  text-align: center;
+  width: 100vw;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); /* Sombra suave para secciones */
+  border-radius: 10px; /* Bordes redondeados para un look moderno */
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+.hero {
+  background: #503358;
+  color: white;
+}
+
+.about {
+  background: #FF6794;
+  color: white;
+}
+
+.topics {
+  background: #68B9EE;
+  color: white;
+}
+
+.contact {
+  background: #FBB861;
+  color: white;
+}
+
+h2, h3 {
+  color: white;
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+/* Topics Section */
+.topics h3 {
+  margin-bottom: 1em;
+  line-height: 1.6;
+}
+
+.topics ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+}
+
+.topics li {
+  margin-bottom: 1em;
+  padding: 0.5em;
+  background-color: #ffffff33; /* Fondo semitransparente para efecto visual */
+  border-radius: 8px;
+  line-height: 1.6;
+  transition: background-color 0.3s ease;
+}
+
+.topics li:hover {
+  background-color: #ffffff66; /* Cambio de fondo al hacer hover */
+}
+
+/* Button Styling */
+button {
+  background: #4caf50;
+  border: none;
+  color: white;
+  padding: 0.8em 1.5em;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 600;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background: #45a049;
+  transform: scale(1.05); /* Efecto de agrandamiento suave al hacer hover */
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Footer Styling */
+.contact p {
+  margin-bottom: 1em;
+  color: #333;
+}
+
+html {
+  scroll-behavior: smooth;
+}
